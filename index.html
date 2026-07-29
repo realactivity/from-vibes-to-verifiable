@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#111317" />
+    <meta
+      name="description"
+      content="The M365 Community Days NYC companion for From Vibes to Verifiable: OpenClaw, Microsoft Scout, Tula, Wren, My Aria, Waza, and agent governance."
+    />
+    <meta property="og:title" content="From Vibes to Verifiable" />
+    <meta
+      property="og:description"
+      content="Inspect the contract. Test the behavior. Constrain the action. Audit the result."
+    />
+    <meta
+      property="og:image"
+      content="https://realactivity.github.io/from-vibes-to-verifiable/assets/event-hero.jpeg"
+    />
+    <meta
+      property="og:url"
+      content="https://realactivity.github.io/from-vibes-to-verifiable/"
+    />
+    <meta property="og:type" content="website" />
+    <title>From Vibes to Verifiable · M365 Community Days NYC</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to the story</a>
+    <div class="scroll-meter" aria-hidden="true"><span></span></div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="From Vibes to Verifiable home">
+        <span class="wordmark-mark">RA</span>
+        <span>From Vibes <em>to Verifiable</em></span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#story">Story</a>
+        <a href="#stack">Stack</a>
+        <a href="#demos">Demos</a>
+        <a href="#sources">Sources</a>
+      </nav>
+      <a
+        class="button button-small"
+        href="downloads/From-Vibes-to-Verifiable-M365-NYC-2026.pptx"
+        download
+      >
+        Get the deck
+      </a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-art" aria-hidden="true">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="grid"></div>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">M365 COMMUNITY DAYS NYC · JULY 31, 2026</p>
+          <h1>
+            From <span class="accent">vibes</span><br />
+            to verifiable.
+          </h1>
+          <p class="hero-lede">
+            Open agents are thrilling. Governed agents are useful.
+            Follow the evidence trail from OpenClaw and Microsoft Scout to Tula,
+            Wren, My Aria, Waza, and an operational trust bridge.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#story">Follow the evidence</a>
+            <a
+              class="text-link"
+              href="downloads/From-Vibes-to-Verifiable-M365-NYC-2026.pptx"
+              download
+            >
+              Download PowerPoint <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+          <dl class="hero-facts" aria-label="Session details">
+            <div><dt>Speaker</dt><dd>Paul Swider</dd></div>
+            <div><dt>Venue</dt><dd>Microsoft · 11 Times Square</dd></div>
+            <div><dt>Format</dt><dd>50 minutes · 3 live demos</dd></div>
+          </dl>
+        </div>
+        <figure class="event-poster reveal">
+          <img
+            src="assets/event-hero.jpeg"
+            alt="M365 Community Days New York City 2026 event artwork"
+          />
+          <figcaption>Community-powered. Evidence-driven.</figcaption>
+        </figure>
+      </section>
+
+      <section class="thesis" aria-labelledby="thesis-title">
+        <p class="eyebrow">THE THESIS</p>
+        <h2 id="thesis-title">If it acts, it needs evidence.</h2>
+        <div class="verb-row" aria-label="The four-part trust pattern">
+          <span>Inspect</span><i aria-hidden="true">→</i>
+          <span>Test</span><i aria-hidden="true">→</i>
+          <span>Constrain</span><i aria-hidden="true">→</i>
+          <span>Audit</span>
+        </div>
+      </section>
+
+      <section class="story section" id="story">
+        <div class="section-intro">
+          <p class="eyebrow">THE STORY · THREE ACTS</p>
+          <h2>Same substrate.<br />Different stakes.</h2>
+          <p>
+            Scout handles the coordination surface of work. Tula handles the
+            deeply personal surface of health. OpenClaw makes the shared runtime
+            visible—and visibility lets us ask better trust questions.
+          </p>
+        </div>
+
+        <div class="duo">
+          <article class="agent-card scout-card reveal">
+            <div class="agent-number">01</div>
+            <p class="card-label">WORKFORCE AGENT</p>
+            <h3>Microsoft Scout</h3>
+            <p>
+              An always-on personal agent built on OpenClaw and Work IQ, acting
+              across Microsoft 365 with enterprise identity, access control,
+              policy, and human signoff.
+            </p>
+            <ul class="tag-list" aria-label="Scout concepts">
+              <li>Work IQ</li><li>Identity</li><li>Approval</li><li>Policy</li>
+            </ul>
+            <a
+              class="text-link"
+              href="https://learn.microsoft.com/en-us/microsoft-scout/"
+              target="_blank"
+              rel="noreferrer"
+            >Open Scout docs ↗</a>
+          </article>
+
+          <article class="agent-card tula-card reveal">
+            <div class="agent-number">02</div>
+            <p class="card-label">PATIENT AGENT</p>
+            <h3>Tula</h3>
+            <p>
+              An open-source health skill layer for OpenClaw: private workspace,
+              explicit behavioral contracts, human handoffs, and an evaluation
+              standard designed around real failure modes.
+            </p>
+            <ul class="tag-list" aria-label="Tula concepts">
+              <li>Skills</li><li>FHIR</li><li>Privacy</li><li>Evals</li>
+            </ul>
+            <a
+              class="text-link"
+              href="https://github.com/realactivity/tula"
+              target="_blank"
+              rel="noreferrer"
+            >Explore Tula on GitHub ↗</a>
+          </article>
+        </div>
+
+        <div class="upstream-note reveal">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <p>
+            <strong>The feedback loop matters.</strong> Microsoft says it is
+            contributing policy conformance directly upstream to OpenClaw.
+            Enterprise governance can strengthen the open substrate everyone
+            builds on.
+          </p>
+          <a
+            href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/"
+            target="_blank"
+            rel="noreferrer"
+          >Read the announcement ↗</a>
+        </div>
+      </section>
+
+      <section class="stack section" id="stack">
+        <div class="section-intro compact">
+          <p class="eyebrow">THE VERIFIABLE STACK</p>
+          <h2>Follow one action all the way down.</h2>
+          <p>
+            Tap a layer. The question changes, but the requirement does not:
+            preserve enough evidence to explain what happened.
+          </p>
+        </div>
+
+        <div class="stack-lab">
+          <div class="stack-controls" role="tablist" aria-label="Trust stack layers">
+            <button role="tab" aria-selected="true" data-layer="context">
+              <span>01</span> Context
+            </button>
+            <button role="tab" aria-selected="false" data-layer="runtime">
+              <span>02</span> Runtime
+            </button>
+            <button role="tab" aria-selected="false" data-layer="skills">
+              <span>03</span> Skills
+            </button>
+            <button role="tab" aria-selected="false" data-layer="boundary">
+              <span>04</span> Data boundary
+            </button>
+            <button role="tab" aria-selected="false" data-layer="evidence">
+              <span>05</span> Evidence
+            </button>
+            <button role="tab" aria-selected="false" data-layer="governance">
+              <span>06</span> Governance
+            </button>
+          </div>
+          <div class="stack-stage" aria-live="polite">
+            <p class="stage-kicker" id="stage-kicker">QUESTION 01</p>
+            <h3 id="stage-title">What did the agent know?</h3>
+            <p id="stage-copy">
+              Context determines the decision surface. Identify the tenant,
+              person, files, messages, record, and time window that shaped the
+              action.
+            </p>
+            <div class="stage-proof">
+              <span>Proof to keep</span>
+              <strong id="stage-proof">Context references + identity</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wren section">
+        <div class="section-intro">
+          <p class="eyebrow">WREN · THE HEALTH-DATA BRIDGE</p>
+          <h2>Patient-authorized data.<br />A relay that cannot read it.</h2>
+          <p>
+            Wren is Tula's MIT-licensed SMART on FHIR records relay. It wraps
+            the records connection as an OpenClaw skill while preserving a
+            hard, inspectable boundary around the patient record.
+          </p>
+          <a
+            class="button button-outline"
+            href="https://github.com/realactivity/tula/tree/main/services/wren"
+            target="_blank"
+            rel="noreferrer"
+          >Inspect Wren ↗</a>
+        </div>
+
+        <div class="data-journey reveal" aria-label="Wren data journey">
+          <button class="trace-button" type="button">Run the trace</button>
+          <ol>
+            <li data-trace="1"><span>01</span><strong>Patient</strong><small>chooses provider</small></li>
+            <li data-trace="2"><span>02</span><strong>Epic / FHIR</strong><small>authorizes access</small></li>
+            <li data-trace="3"><span>03</span><strong>Wren</strong><small>relays ciphertext</small></li>
+            <li data-trace="4"><span>04</span><strong>Tula skill</strong><small>decrypts locally</small></li>
+            <li data-trace="5"><span>05</span><strong>My Aria</strong><small>makes it visible</small></li>
+          </ol>
+          <p class="journey-note">
+            ECDH P-256 + AES-256-GCM · SMART on FHIR · operator-controlled infrastructure
+          </p>
+        </div>
+      </section>
+
+      <section class="showcase section">
+        <div class="showcase-copy">
+          <p class="eyebrow">MY ARIA · THE HUMAN SURFACE</p>
+          <h2>The record should answer human questions.</h2>
+          <p>
+            My Aria is the patient-facing visual layer for Tula's longitudinal
+            record: results, medications, messages, appointments, devices, and
+            agent conversations in one coherent experience.
+          </p>
+          <p class="status-note">
+            Current public screenshots use synthetic fixtures. My Aria is not
+            affiliated with Epic or MyChart and is not a medical device.
+          </p>
+        </div>
+        <div class="image-deck">
+          <figure class="image-card image-main reveal">
+            <img src="assets/my-aria-dashboard.png" alt="Synthetic My Aria patient dashboard" loading="lazy" />
+            <figcaption>One longitudinal view</figcaption>
+          </figure>
+          <figure class="image-card image-side reveal">
+            <img src="assets/my-aria-ai-chats.png" alt="Synthetic My Aria AI chats screen" loading="lazy" />
+            <figcaption>Grounded conversations</figcaption>
+          </figure>
+          <figure class="image-card image-side reveal">
+            <img src="assets/my-aria-home-devices.png" alt="Synthetic My Aria home devices screen" loading="lazy" />
+            <figcaption>Signals beyond the portal</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="waza section">
+        <div class="waza-visual reveal">
+          <img
+            src="assets/dual-spec-skill-stack.png"
+            alt="Tula dual-spec skill and evaluation architecture"
+            loading="lazy"
+          />
+        </div>
+        <div class="section-intro">
+          <p class="eyebrow">WAZA · EXECUTABLE EVIDENCE</p>
+          <h2>A passing demo is not a release gate.</h2>
+          <p>
+            Waza checks the structure and behavior of agent skills. Tula's
+            Patient Agent Eval Standard currently covers 78 tasks across eight
+            skills plus composition.
+          </p>
+          <div class="eval-grid" aria-label="Evaluation modes">
+            <span>Positive</span><span>Handoff</span><span>PHI boundary</span>
+            <span>Adversarial</span><span>Golden</span>
+          </div>
+          <pre><code><span>$</span> waza check skills/prep-my-visit
+<span>$</span> waza run evals/prep-my-visit/eval.yaml -v</code></pre>
+          <a
+            class="text-link"
+            href="https://github.com/microsoft/waza"
+            target="_blank"
+            rel="noreferrer"
+          >Explore Microsoft Waza ↗</a>
+        </div>
+      </section>
+
+      <section class="governance section">
+        <div class="section-intro compact">
+          <p class="eyebrow">MELLOW MUSHROOM · THE TRUST BRIDGE</p>
+          <h2>Governance becomes real when you can point to it.</h2>
+          <p>
+            The synthetic Trust Bridge demo makes consent, attention, policy,
+            and audit visible across workforce and patient agents.
+          </p>
+          <div class="governance-pills">
+            <span>Identity</span><span>Consent</span><span>Policy</span>
+            <span>Attention</span><span>Audit</span>
+          </div>
+          <a
+            class="button"
+            href="https://mellowmushroom.realactivity.ai/"
+            target="_blank"
+            rel="noreferrer"
+          >Open the synthetic demo ↗</a>
+        </div>
+        <figure class="governance-screen reveal">
+          <div class="synthetic-label">SYNTHETIC DEMO</div>
+          <img
+            src="assets/governance-plane.png"
+            alt="Synthetic Mellow Mushroom Trust Bridge governance dashboard"
+            loading="lazy"
+          />
+        </figure>
+      </section>
+
+      <section class="demos section" id="demos">
+        <div class="section-intro compact">
+          <p class="eyebrow">THREE DEMOS · ONE QUESTION</p>
+          <h2>Where is the evidence?</h2>
+        </div>
+        <div class="demo-tabs" role="tablist" aria-label="Live demo guide">
+          <button role="tab" aria-selected="true" data-demo="scout">01 · Scout</button>
+          <button role="tab" aria-selected="false" data-demo="tula">02 · Tula + Waza</button>
+          <button role="tab" aria-selected="false" data-demo="bridge">03 · Trust Bridge</button>
+        </div>
+        <article class="demo-panel" aria-live="polite">
+          <div>
+            <p class="card-label" id="demo-label">LIVE DEMO 01</p>
+            <h3 id="demo-title">Follow the action and the controls.</h3>
+            <p id="demo-purpose">
+              Trace one Microsoft 365 task from context to tool boundary,
+              approval, and evidence.
+            </p>
+          </div>
+          <ol id="demo-steps">
+            <li>Name the context Scout is using.</li>
+            <li>Follow the action into the runtime and tool boundary.</li>
+            <li>Pause on the sensitive-action approval.</li>
+            <li>Show what an administrator could reconstruct.</li>
+          </ol>
+          <blockquote id="demo-line">
+            “The result is the least interesting part. Who acted, with which
+            context, under which permission?”
+          </blockquote>
+        </article>
+        <a class="text-link centered" href="DEMO_RUNBOOK.md">Open the complete demo runbook →</a>
+      </section>
+
+      <section class="tips section">
+        <div class="section-intro compact">
+          <p class="eyebrow">FIELD NOTES</p>
+          <h2>Steal these presenter moves.</h2>
+        </div>
+        <div class="tip-grid">
+          <article class="reveal"><span>01</span><h3>Narrate the boundary.</h3><p>Explain why data or authority is crossing—not every click.</p></article>
+          <article class="reveal"><span>02</span><h3>Show one refusal.</h3><p>A good negative test often explains the safety model best.</p></article>
+          <article class="reveal"><span>03</span><h3>Name the status.</h3><p>Say synthetic, prototype, phase 1, or in progress when that is true.</p></article>
+          <article class="reveal"><span>04</span><h3>End with evidence.</h3><p>Close every demo on a trace, result, approval, or decision record.</p></article>
+        </div>
+      </section>
+
+      <section class="sources section" id="sources">
+        <div class="section-intro">
+          <p class="eyebrow">PRIMARY SOURCES</p>
+          <h2>Read the source.<br />Fork the pattern.</h2>
+          <p>
+            Every important claim in this story maps to product documentation,
+            an open repository, or an explicitly labeled synthetic demo.
+          </p>
+        </div>
+        <div class="source-list">
+          <a href="https://github.com/openclaw/openclaw" target="_blank" rel="noreferrer"><span>01</span><strong>OpenClaw</strong><small>Open runtime ↗</small></a>
+          <a href="https://learn.microsoft.com/en-us/microsoft-scout/" target="_blank" rel="noreferrer"><span>02</span><strong>Microsoft Scout</strong><small>Official docs ↗</small></a>
+          <a href="https://github.com/realactivity/tula" target="_blank" rel="noreferrer"><span>03</span><strong>Tula</strong><small>Open-source health agent ↗</small></a>
+          <a href="https://github.com/realactivity/tula/tree/main/services/wren" target="_blank" rel="noreferrer"><span>04</span><strong>Wren</strong><small>SMART on FHIR relay ↗</small></a>
+          <a href="https://github.com/realactivity/tula/tree/main/apps/my-aria" target="_blank" rel="noreferrer"><span>05</span><strong>My Aria</strong><small>Patient-facing UI ↗</small></a>
+          <a href="https://github.com/microsoft/waza" target="_blank" rel="noreferrer"><span>06</span><strong>Waza</strong><small>Agent evaluation ↗</small></a>
+          <a href="https://mellowmushroom.realactivity.ai/" target="_blank" rel="noreferrer"><span>07</span><strong>Trust Bridge</strong><small>Synthetic demo ↗</small></a>
+          <a href="SOURCES.md"><span>08</span><strong>Source map</strong><small>Claims + provenance →</small></a>
+        </div>
+      </section>
+
+      <section class="closing section">
+        <p class="eyebrow">THE TAKEAWAY</p>
+        <h2>Build agents you can interrogate after they act.</h2>
+        <div class="closing-actions">
+          <a
+            class="button"
+            href="downloads/From-Vibes-to-Verifiable-M365-NYC-2026.pptx"
+            download
+          >Download the PowerPoint ↓</a>
+          <a class="button button-outline" href="https://github.com/realactivity/tula" target="_blank" rel="noreferrer">Fork Tula ↗</a>
+          <a class="text-link" href="STORY.md">Read the full story →</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <strong>RealActivity</strong>
+        <p>Your health. Your data. Your AI.</p>
+      </div>
+      <p>
+        Built for M365 Community Days NYC 2026.<br />
+        Synthetic demo data. Not medical advice.
+      </p>
+      <nav aria-label="Footer navigation">
+        <a href="SOURCES.md">Sources</a>
+        <a href="NOTICE.md">Notices</a>
+        <a href="https://realactivity.ai" target="_blank" rel="noreferrer">RealActivity ↗</a>
+      </nav>
+    </footer>
+  </body>
+</html>
